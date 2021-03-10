@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  padding: 70px;
+  text-align: center;
+}
+p {
+  color: #dc3545;
+}
+.list_wines {
+  display: grid;
+  grid-template-columns: 3fr 3fr 2fr;
+}
+img {
+  width: 8rem;
+  height: 16vw;
+  object-fit: cover;
+}
+button .btn {
+  display: inline-block;
+  vertical-align: top;
+}
